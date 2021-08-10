@@ -546,7 +546,9 @@ function library.init(self)
         section.ScaleType = Enum.ScaleType.Slice
         section.SliceCenter = Rect.new(100,100,100,100)
         section.SliceScale = 0.06
-        section.ClipsDescendants = false
+        delay(1,function()
+            section.ClipsDescendants = false
+        end)
         section.Parent = window
 
         title.Name = "title"
