@@ -319,7 +319,7 @@ function connections.setUp(self,method,whatConnection)
                 local Option = Instance.new("TextButton")
                 Option.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
                 Option.Font = Enum.Font.Arial
-                Option.Text = "Option A"
+                Option.Text = _named
                 Option.TextColor3 = Color3.fromRGB(255, 255, 255)
                 Option.TextScaled = true
                 Option.TextStrokeTransparency = 0.4
