@@ -427,7 +427,7 @@ function library.init(self)
     ScreenGui.Parent = plrgui
     savedLocalScreenGui = ScreenGui
     if syn and syn.request then
-        syn.protect_gui(ScreenGui)
+        --syn.protect_gui(ScreenGui)
     end
     coroutine.wrap(function()
         local function mouseClicked(_type)
