@@ -532,7 +532,6 @@ function library.init(self)
         window.SliceScale = 0.03
         window.Active = true
         window.Draggable = true
-        window.ClipsDescendants = false
         window.Parent = ScreenGui
 
         section.Name = "section"
@@ -547,7 +546,6 @@ function library.init(self)
         section.ScaleType = Enum.ScaleType.Slice
         section.SliceCenter = Rect.new(100,100,100,100)
         section.SliceScale = 0.06
-        section.ClipsDescendants = false
         section.Parent = window
 
         title.Name = "title"
