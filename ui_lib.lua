@@ -532,6 +532,7 @@ function library.init(self)
         window.SliceScale = 0.03
         window.Active = true
         window.Draggable = true
+        window.ClipsDescendants = true
         window.Parent = ScreenGui
 
         section.Name = "section"
