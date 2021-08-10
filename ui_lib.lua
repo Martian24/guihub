@@ -667,6 +667,7 @@ function library.init(self)
                     scrolling.Visible = false
                     scrolling.CanvasSize = UDim2.new(0, 0, 1, 0)
                     scrolling.ZIndex = 3
+                    scrolling.ClipsDescendants = true
 
                     UIGridLayout.Parent = scrolling
                     UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -741,6 +742,7 @@ function library.init(self)
                     scrolling.Visible = false
                     scrolling.CanvasSize = UDim2.new(0, 0, 6, 0)
                     scrolling.ZIndex = 3
+                    scrolling.ClipsDescendants = true
 
 
                     UIGridLayout.Parent = scrolling
