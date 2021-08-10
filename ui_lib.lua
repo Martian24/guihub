@@ -662,8 +662,8 @@ function library.init(self)
                     scrolling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                     scrolling.BackgroundTransparency = 0.400
                     scrolling.BorderSizePixel = 0
-                    scrolling.Position = UDim2.new(-7.2, 0,1.1, 0)
-                    scrolling.Size = UDim2.new(10, 0, 20.1, 0)
+                    scrolling.Position = UDim2.new(-4.2, 0,1.1, 0)
+                    scrolling.Size = UDim2.new(12, 0, 40.1, 0)
                     scrolling.Visible = false
                     scrolling.CanvasSize = UDim2.new(0, 0, 1, 0)
                     scrolling.ZIndex = 3
@@ -736,8 +736,8 @@ function library.init(self)
                     scrolling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                     scrolling.BackgroundTransparency = 0.400
                     scrolling.BorderSizePixel = 0
-                    scrolling.Position = UDim2.new(-7.2, 0,1.1, 0)
-                    scrolling.Size = UDim2.new(10, 0, 20.1, 0)
+                    scrolling.Position = UDim2.new(-4.2, 0,1.1, 0)
+                    scrolling.Size = UDim2.new(12, 0, 40.1, 0)
                     scrolling.Visible = false
                     scrolling.CanvasSize = UDim2.new(0, 0, 6, 0)
                     scrolling.ZIndex = 3
