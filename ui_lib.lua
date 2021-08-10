@@ -739,7 +739,7 @@ function library.init(self)
                     scrolling.Position = UDim2.new(-7.2, 0,1.1, 0)
                     scrolling.Size = UDim2.new(6.7, 0, 4.1, 0)
                     scrolling.Visible = false
-                    scrolling.CanvasSize = UDim2.new(0, 0, 1, 0)
+                    scrolling.CanvasSize = UDim2.new(0, 0, 6, 0)
                     scrolling.ZIndex = 3
 
 
